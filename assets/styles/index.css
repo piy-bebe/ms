@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+:root {
+  --bg-color: #0b0b0b;
+
+  --link-color: #fff;
+  --link-hover-color: #77ff77;
+
+  --text-family: 'Wix Madefor Text', sans-serif;
+  --text-color: #fff;
+}
+
+body {
+  background-color: var(--bg-color);
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  margin-top: 240px;
+}
+
+.container {
+  max-width: 1420px;
+  width: 100%;
+}
+
+.debug {
+  border: 1px dashed red;
+}
