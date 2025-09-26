@@ -7,6 +7,8 @@
 
   --text-family: 'Wix Madefor Text', sans-serif;
   --text-color: #fff;
+  --text-secondary-color: #ffffff99;
+  --button-color: #000;
 }
 
 body {

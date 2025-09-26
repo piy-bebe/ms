@@ -24,3 +24,31 @@
   margin-bottom: 60px;
   padding: 0;
 }
+
+.hero__description {
+  max-width: 749px;
+  width: 100%;
+
+  font-family: var(--text-family);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--text-color);
+
+  text-align: center;
+
+  margin-bottom: 252px;
+}
+
+.hero__button {
+  width: 100%;
+  height: 81px;
+
+  font-family: var(--text-family);
+  color: var(--button-color);
+  font-size: 36px;
+  font-weight: bold;
+  border: none;
+  border-radius: 13px;
+
+  margin-bottom: 122px;
+}

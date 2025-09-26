@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./assets/styles/index.css" />
     <link rel="stylesheet" href="./assets/styles/header.css" />
     <link rel="stylesheet" href="./assets/styles/hero.css" />
+    <link rel="stylesheet" href="./assets/styles/services.css" />
+    <link rel="stylesheet" href="./assets/styles/tools.css" />
     <title>Site</title>
   </head>
   <body>
@@ -14,7 +16,7 @@
       <nav class="header__menu">
         <ul class="header__list">
           <li class="header__item">
-            <a class="header__link" href="">О компании 123</a>
+            <a class="header__link" href="">О компании</a>
           </li>
           <li class="header__item">
             <a class="header__link" href="">Услуги</a>
@@ -36,10 +38,66 @@
       <section class="hero">
         <div class="hero__container container">
           <h1 class="hero__title">Приложения для e-commerce и прочего другого</h1>
-          <p>
+          <p class="hero__description">
             Ведущая студия мобильной разработки с широким спектром услуг. Команда экспертов создаст
             высококачественные приложения, оптимизированные под ваши потребности.
           </p>
+          <button class="hero__button">Заказать консультацию</button>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="services__container container">
+          <div class="services__item">
+            <h2 class="services__title">Разработка с нуля</h2>
+            <p class="services__description">
+              Полный цикл работ по разработке кроссплатформенного мобильного приложения. От аналитики и
+              проектирования до публикации, поддержки и развития.
+            </p>
+            <img class="services__image" src="./assets/images/services_1.png" alt="" />
+          </div>
+          <div class="services__item">
+            <h2 class="services__title">Перенос на кросс-платформу</h2>
+            <p class="services__description">
+              Перенесем ваше iOS/Android приложение на кросс-платформу и сократим стоимость разработки и поддержки
+              на 40%
+            </p>
+            <img class="services__image" src="./assets/images/services_2.png" alt="" />
+          </div>
+          <div class="services__item">
+            <h2 class="services__title">Доработка продукта</h2>
+            <p class="services__description">
+              Проанализируем текущее состояние проекта, предложим пути решения и доработаем его до нужного
+              результата
+            </p>
+            <img class="services__image" src="./assets/images/services_3.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="tools">
+        <div class="tools__container container">
+          <div class="tools__item">
+            <h2 class="tools__title">Пишем на</h2>
+            <p class="tools__text">
+              <b class="tools__bold">Java</b> - позволяет создавать мобильные приложения с высокой отзывчивостью.
+              <br /><b class="tools__bold">Dart</b> - предназначен для создания высокопроизводительных приложений.
+            </p>
+          </div>
+          <div class="tools__item">
+            <h2 class="tools__title">Используем фреймворки</h2>
+            <p class="tools__text">
+              <b class="tools__bold">FireBase</b> - аутентификация, облачные хранилища данных, уведомления и пр.
+              <br /><b class="tools__bold">Dart</b> - создает высококачественные пользовательские интерфейсы.
+            </p>
+          </div>
+          <div class="tools__item">
+            <h2 class="tools__title">Получаем результат</h2>
+            <p class="tools__text">
+              Интуитивный пользовательский интерфейс, надежность, стабильность, высокая производительность,
+              кросс-платформенная совместимость, безопасность.
+            </p>
+          </div>
         </div>
       </section>
     </main>

@@ -1,0 +1,31 @@
+.tools {
+  display: flex;
+  justify-content: center;
+}
+
+.tools__container {
+  display: flex;
+  justify-content: center;
+}
+
+.tools__item {
+  max-width: 460px;
+  width: 100%;
+}
+
+.tools__title {
+  font-family: var(--text-family);
+  color: var(--text-color);
+}
+
+.tools__bold {
+  font-family: var(--text-family);
+  color: var(--text-color);
+}
+
+.tools__text {
+  font-family: var(--text-family);
+  color: var(--text-secondary-color);
+
+  font-size: 22px;
+}
