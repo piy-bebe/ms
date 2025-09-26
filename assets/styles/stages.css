@@ -1,0 +1,21 @@
+.stages {
+  display: flex;
+  justify-content: center;
+}
+
+.stages__item {
+  display: flex;
+}
+
+.stages__group {
+}
+
+.stages__title {
+  color: var(--text-color);
+  font-family: var(--text-family);
+}
+
+.stages__text {
+  color: var(--text-color);
+  font-family: var(--text-family);
+}
